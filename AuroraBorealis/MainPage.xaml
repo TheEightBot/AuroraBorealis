@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabbedPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+    xmlns:local="clr-namespace:AuroraBorealis" 
+    x:Class="AuroraBorealis.MainPage"
+    android:TabbedPage.ToolbarPlacement="Bottom"
+    android:TabbedPage.IsSwipePagingEnabled="False">
+    <local:Cupertino Title="Cupertino" Icon="ios.png" />
+    <local:Material Title="Material" Icon="android.png" />
+    <local:Controls Title="Controls" Icon="aurora.png" />
+</TabbedPage>

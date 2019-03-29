@@ -1,0 +1,21 @@
+<svg id="Layer_1" data-name="Layer 1" 
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 440 440">
+    <defs>
+        <style>.cls-1{fill:url(#New_Gradient_Swatch_1);}.cls-2{fill:#333666;}</style>
+        <linearGradient id="New_Gradient_Swatch_1" x1="382.32" y1="116.02" x2="135.26" y2="372.08" gradientUnits="userSpaceOnUse">
+            <stop offset="0.24" stop-color="#ff009f"/>
+            <stop offset="0.35" stop-color="#a659c0"/>
+            <stop offset="0.45" stop-color="#5fa0db"/>
+            <stop offset="0.53" stop-color="#2cd3ef"/>
+            <stop offset="0.59" stop-color="#0cf3fb"/>
+            <stop offset="0.62" stop-color="aqua"/>
+            <stop offset="0.66" stop-color="#0bf3e8"/>
+            <stop offset="0.79" stop-color="#37bf8a"/>
+            <stop offset="0.85" stop-color="#48ab65"/>
+            <stop offset="0.99" stop-color="#9c3"/>
+        </linearGradient>
+    </defs>
+    <title>Aurora Logo WEB</title>
+    <path class="cls-1" d="M66.79,357.28a19,19,0,0,1-16.57-28.19L228.9,9.72a19,19,0,0,1,33.18,18.47L83.39,347.56A19,19,0,0,1,66.79,357.28Zm82.93-9.76L295,86.29a19,19,0,0,0-33.22-18.38L116.5,329.13a19,19,0,0,0,33.22,18.39Zm137.5-128.1,41.14-74A19,19,0,0,0,295.14,127L254,201a19,19,0,0,0,33.23,18.38Zm32.12,63.41,43.49-76a19,19,0,0,0-33-18.79l-43.49,76a19,19,0,0,0,33,18.79Zm33.32,57.86,43.2-75.51a19,19,0,0,0-33-18.7L319.62,322a19,19,0,0,0,33,18.7Zm61.93,7.4,14.27-23.66a19,19,0,0,0-32.55-19.54L382,328.56a19,19,0,0,0,32.55,19.53Z"/>
+</svg>

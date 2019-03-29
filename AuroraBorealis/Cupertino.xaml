@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:auroraControls="clr-namespace:Aurora.Controls;assembly=Aurora"
+    xmlns:auroraLoading="clr-namespace:Aurora.Loading;assembly=Aurora"
+    xmlns:auroraVisualEffects="clr-namespace:Aurora.VisualEffects;assembly=Aurora"
+    x:Class="AuroraBorealis.Cupertino">
+    <ContentPage.Content>
+        <Grid Padding="16, 48, 16, 16"
+            RowSpacing="8">
+            
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40" />
+                <RowDefinition Height="40" />
+                <RowDefinition Height="40" />
+                <RowDefinition Height="40" />
+                <RowDefinition Height="120" />
+                <RowDefinition Height="40" />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            
+            <auroraControls:CupertinoButton 
+                x:Name="cupertinoButton"
+                FontColor="White"
+                Text="Cupertino" 
+                Grid.Row="0" />
+                
+            <auroraControls:CupertinoToggleSwitch 
+                x:Name="cupertinoToggle" 
+                TrackDisabledColor="#EC008C"
+                TrackEnabledColor="#00FFFF"
+                Grid.Row="1" />
+                
+            <auroraControls:SegmentedControl 
+                x:Name="segmentedControl"
+                Grid.Row="2">
+                
+                <auroraControls:SegmentedControl.Segments>
+                    <auroraControls:Segment Text="Item 1" />
+                    <auroraControls:Segment Text="Item 2" />
+                    <auroraControls:Segment Text="Item 3" />
+                </auroraControls:SegmentedControl.Segments>
+                
+                <!--
+                <auroraControls:SegmentedControl.VisualEffects>
+                    <auroraVisualEffects:Gradient 
+                        GradientStartColor="#99EC008C"
+                        GradientStopColor="#99A2DE32"
+                        GradientRotationAngle="15" />
+                </auroraControls:SegmentedControl.VisualEffects>
+                -->
+                
+            </auroraControls:SegmentedControl>
+            
+            <auroraControls:Slider 
+                x:Name="slider"
+                Minimum="0" Maximum="100" Value="50"
+                ProgressBackgroundColor="#C7C7C9"
+                Grid.Row="3"/>
+                
+            <auroraControls:ControlPanelSlider x:Name="cps"
+                WidthRequest="80" HorizontalOptions="Center"
+                EmbeddedImageName="AuroraLogo.svg" EmbeddedImageOverlayColor="#EC008C"
+                ProgressBackgroundColor="#333666" ProgressColor="#00FFFF"
+                TouchedAnimationDuration="600"
+                Orientation="Vertical" 
+                CornerRadius="8"
+                Grid.Row="4"/>
+            
+            <auroraLoading:CupertinoActivityIndicator 
+                x:Name="loadingIndicator"
+                Segments="12" LengthPercent=".50" CornerRadius="4"
+                Length="1200"
+                Grid.Row="5" />
+        
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

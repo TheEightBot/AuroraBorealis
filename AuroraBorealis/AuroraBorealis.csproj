@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceAssemblyReference>true</ProduceAssemblyReference>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="3.6.0.135200-pre1" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.0.1" />
+    <PackageReference Include="AuroraControls.Core" Version="1.2019.314.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="aurora.svg" />
+    <None Remove="AuroraLogo.svg" />
+    <None Remove="XamarinLogo.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AuroraLogo.svg" />
+    <EmbeddedResource Include="XamarinLogo.svg" />
+  </ItemGroup>
+</Project>
