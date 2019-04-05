@@ -10,6 +10,7 @@ namespace AuroraBorealis
         public RainbowRingLoading()
         {
             InitializeComponent();
+            _rainbow.Start();
         }
     }
 }
