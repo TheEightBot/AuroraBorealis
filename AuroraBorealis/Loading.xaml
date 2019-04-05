@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:auroraControls="clr-namespace:Aurora.Controls;assembly=Aurora"
+    xmlns:auroraGauges="clr-namespace:Aurora.Gauges;assembly=Aurora"
+    x:Class="AuroraBorealis.Loading" >
+    <ContentPage.Content>
+        <Grid Padding="8">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Button Text="Nofriendo" Grid.Row="0" Margin="16" HorizontalOptions="Center" Clicked="GoToNofriendo"/>
+            <Button Text="Rainbow Ring" Grid.Row="1" Margin="16" HorizontalOptions="Center" Clicked="GoToRainbowRing" />
+            <Button Text="Waves" Grid.Row="2" Margin="16" HorizontalOptions="Center" Clicked="GoToWaves"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

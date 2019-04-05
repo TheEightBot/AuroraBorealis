@@ -11,7 +11,7 @@ namespace AuroraBorealis
             InitializeComponent();
             Aurora.EmbeddedResourceLoader.LoadAssembly(typeof(MainPage).Assembly);
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new Loading());
         }
 
         protected override void OnStart()
