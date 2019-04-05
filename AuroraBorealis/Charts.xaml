@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:auroraControls="clr-namespace:Aurora.Controls;assembly=Aurora"
+    xmlns:auroraCharts="clr-namespace:Aurora.Charts;assembly=Aurora"
+    x:Class="AuroraBorealis.Charts">
+    <ContentPage.Content>
+        <StackLayout Padding="8" HorizontalOptions="CenterAndExpand">
+            
+            <auroraCharts:DonutChart x:Name="_donut" Margin="16" 
+                                     StartingDegree="-90" EndingDegree="175"
+                                     ProgressColor="Purple" ProgressBackgroundColor="Black"
+                                     RingThickness="64"
+                HeightRequest="400" WidthRequest="200" VerticalOptions="Start"></auroraCharts:DonutChart>
+            
+            <Label x:Name="_donutLabel" Text="Donut Chart" HorizontalTextAlignment="Center" ></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
