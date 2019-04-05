@@ -10,6 +10,7 @@ namespace AuroraBorealis
         public WavesLoading()
         {
             InitializeComponent();
+            _waves.StartAnimating(16, 500);
         }
     }
 }
