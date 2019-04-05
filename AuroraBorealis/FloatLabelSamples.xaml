@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="AuroraBorealis.FloatLabelSamples"
+    xmlns:aurora="clr-namespace:Aurora.Controls;assembly=Aurora">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout x:Name="stack" Padding="8" Margin="16" Spacing="16">
+                
+                <aurora:FloatLabelEntry Placeholder="Float Label Entry" PlaceholderColor="Teal" 
+                                        EditingViewMargin="16, 0" 
+                                        ActiveColor="Blue" InactiveColor="Gray" DisabledColor="Red" 
+                                        BorderSize="8" BorderStyle="RoundedRectangle"
+                                        TitleFontSize="8" />
+                
+                <aurora:FloatLabelNumericEntry Placeholder="Float Label Numeric Entry" MinValue="5" MaxValue="34" 
+                                               ActiveColor="Green" InactiveColor="Silver" DisabledColor="Red" 
+                                               BorderSize="16" BorderStyle="RoundedRectangle"
+                                            TitleFontSize="16" />
+                
+                <aurora:FloatLabelPicker x:Name="floatingLabelPicker" Placeholder="Picker" BorderSize="4" BorderStyle="Rectangle" 
+                                         FocusAnimationLength="125" ContentBackgroundColor="Olive" 
+                                         ActiveColor="Purple" InactiveColor="Green" >
+                    
+                    <aurora:FloatLabelPicker.Items>
+                        <x:String>Baboon</x:String>
+                        <x:String>Capuchin Monkey</x:String>
+                        <x:String>Blue Monkey</x:String>
+                        <x:String>Squirrel Monkey</x:String>
+                        <x:String>Golden Lion Tamarin</x:String>
+                        <x:String>Howler Monkey</x:String>
+                        <x:String>Japanese Macaque</x:String>
+                    </aurora:FloatLabelPicker.Items>
+                </aurora:FloatLabelPicker>
+                
+                <aurora:FloatLabelNumericDecimalEntry x:Name="updatedNumericEntry" Placeholder="Float Label Numeric Decimal Entry" 
+                                                      PrefixValue="$" MaxValue="999.99"
+                                                      ActiveColor="Yellow" InactiveColor="Black" DisabledColor="Red" 
+                                                      BorderSize="16" BorderStyle="RoundedRectangle"
+                                                      TitleFontSize="16"/>
+                
+                <aurora:FloatLabelNumericIntEntry x:Name="integerEntry" Placeholder="Float Label Numeric Int Entry" 
+                                                  PrefixValue="$" Format="0000"  MaxValue="1000"
+                                                  ActiveColor="Green" InactiveColor="Silver" DisabledColor="Red" 
+                                                  BorderSize="2" BorderStyle="RoundedUnderline"
+                                                  TitleFontSize="12" />
+                
+                <aurora:FloatLabelDatePicker x:Name="floatingLabelDatePicker" Placeholder="Float Label Date Picker" BorderSize="3" ActiveColor="Purple" InactiveColor="Green" />
+                <aurora:FloatLabelTimePicker x:Name="floatingLabelTimePicker" Placeholder="Float Label Time Picker" BorderSize="3" ActiveColor="Purple" InactiveColor="Green" />
+                
+                <aurora:FloatLabelNullableDatePicker x:Name="floatingLabelNullableDatePicker" Placeholder="Nullable Date Picker" BorderSize="3" ActiveColor="Purple" InactiveColor="Green" />
+                <aurora:FloatLabelNullableTimePicker x:Name="floatingLabelNullableTimePicker" Placeholder="Nullable Time Picker" BorderSize="3" ActiveColor="Purple" InactiveColor="Green" />
+                
+                <aurora:FloatLabelEditor x:Name="floatingLabelEditor" EditingViewHeight="200" Placeholder="Float Label Editor"
+                                         ActiveColor="Maroon" InactiveColor="Fuchsia" DisabledColor="Red" 
+                                         BorderSize="4" BorderStyle="RoundedRectangle"
+                                         TitleFontSize="24" />
+                
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
