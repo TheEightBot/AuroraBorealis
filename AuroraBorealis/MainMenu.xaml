@@ -36,7 +36,14 @@
                         EmbeddedImageName="android_logo.svg"
                         ButtonBackgroundColor="#c8e6c9"
                         FontColor="#71AA3A"
-                        Clicked="Handle_Clicked"/>                    
+                        Clicked="Handle_Clicked"/>        
+                    <auroraControls:Tile
+                        x:Name="gauges"
+                        Text="Gauges" 
+                        EmbeddedImageName="gauge_logo.svg"
+                        ButtonBackgroundColor="#616161"
+                        FontColor="#80BB41"
+                        Clicked="Handle_Clicked"/>   
                 </StackLayout>
             </Grid>
         </ScrollView>

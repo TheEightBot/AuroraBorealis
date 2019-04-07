@@ -22,12 +22,14 @@
     <None Remove="Icons\ios_logo.svg" />
     <None Remove="Icons\android_logo.svg" />
     <None Remove="Icons\XamarinLogo.svg" />
+    <None Remove="Icons\gauge_logo.svg" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="AuroraLogo.svg" />
     <EmbeddedResource Include="Icons\ios_logo.svg" />
     <EmbeddedResource Include="Icons\android_logo.svg" />
     <EmbeddedResource Include="Icons\xamarin_logo.svg" />
+    <EmbeddedResource Include="Icons\gauge_logo.svg" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Icons\" />
