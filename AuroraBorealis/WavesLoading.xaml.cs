@@ -10,7 +10,18 @@ namespace AuroraBorealis
         public WavesLoading()
         {
             InitializeComponent();
-            _waves.StartAnimating(16, 500);
+        }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            waves.StartAnimating(16, 500);
+        }
+
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+            waves.StopAnimating();
         }
     }
 }

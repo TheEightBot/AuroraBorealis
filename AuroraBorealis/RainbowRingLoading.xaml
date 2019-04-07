@@ -12,8 +12,10 @@
                 <RowDefinition Height="250" />
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
-            <aurora:RainbowRing x:Name="_rainbow" Margin="16"
-                                RingThickness="24"
+            <aurora:RainbowRing x:Name="rainbow"
+                RingThickness="24"
+                Length="16000"
+                EasingFunction="Linear"
                 Grid.Row="0" /> 
         </Grid>
     </ContentPage.Content>

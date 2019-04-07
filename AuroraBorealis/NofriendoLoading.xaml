@@ -10,7 +10,7 @@
                 <RowDefinition Height="75" />
             </Grid.RowDefinitions>
             
-            <auroraLoading:Nofriendo x:Name="_nofriendo" 
+            <auroraLoading:Nofriendo x:Name="nofriendo" 
                                      Grid.Row="0" Grid.Column="0" Grid.RowSpan="3" 
                                      HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" 
                                      StepCount="12" 

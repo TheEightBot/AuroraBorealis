@@ -10,7 +10,18 @@ namespace AuroraBorealis
         public NofriendoLoading()
         {
             InitializeComponent();
-            _nofriendo.StartAnimating(length: 3000, easing: Easing.CubicInOut);
+        }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            nofriendo.StartAnimating(length: 3000, easing: Easing.CubicInOut);
+        }
+
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+            nofriendo.StopAnimating();
         }
     }
 }

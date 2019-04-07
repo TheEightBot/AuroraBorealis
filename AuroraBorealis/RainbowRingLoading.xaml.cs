@@ -10,7 +10,18 @@ namespace AuroraBorealis
         public RainbowRingLoading()
         {
             InitializeComponent();
-            _rainbow.Start();
+        }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            rainbow.Start();
+        }
+
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+            rainbow.Stop();
         }
     }
 }
