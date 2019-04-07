@@ -45,6 +45,22 @@
                         FontColor="#ffffff"
                         Clicked="Handle_Clicked"/> 
                     <auroraControls:Tile
+                        x:Name="auroraControlsSample1"
+                        Text="Aurora Samples 1" 
+                        EmbeddedImageName="aurora_logo.svg"
+                        OverlayColor="#ec407a"
+                        ButtonBackgroundColor="#6a1b9a"
+                        FontColor="#ec407a"
+                        Clicked="Handle_Clicked"/> 
+                    <auroraControls:Tile
+                        x:Name="auroraControlsSample2"
+                        Text="Aurora Samples 2" 
+                        EmbeddedImageName="aurora_logo.svg"
+                        OverlayColor="#6a1b9a"
+                        ButtonBackgroundColor="#ec407a"
+                        FontColor="#6a1b9a"
+                        Clicked="Handle_Clicked"/> 
+                    <auroraControls:Tile
                         x:Name="floatLabelControls"
                         Text="Float Label Fields" 
                         EmbeddedImageName="float_label_logo.svg"
