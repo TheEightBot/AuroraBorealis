@@ -9,9 +9,9 @@ namespace AuroraBorealis
         public App()
         {
             InitializeComponent();
-            Aurora.EmbeddedResourceLoader.LoadAssembly(typeof(MainPage).Assembly);
+            Aurora.EmbeddedResourceLoader.LoadAssembly(typeof(App).Assembly);
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new MainMenu());
         }
 
         protected override void OnStart()

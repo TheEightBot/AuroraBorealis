@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:auroraControls="clr-namespace:Aurora.Controls;assembly=Aurora"
+    x:Class="AuroraBorealis.MainMenu">
+    <ContentPage.Resources>
+        <Style TargetType="auroraControls:Tile">
+            <Setter Property="MaxImageSize" Value="128,128" />
+            <Setter Property="HeightRequest" Value="196" />
+            <Setter Property="WidthRequest" Value="196" />
+            <Setter Property="ShadowColor" Value="#424242" />
+            <Setter Property="ShadowBlurRadius" Value="8" />
+            <Setter Property="CornerRadius" Value="32" />
+            <Setter Property="HorizontalOptions" Value="Center" />
+        </Style>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <Grid>
+            <auroraControls:GradientColorView 
+                GradientStartColor="#eceff1"
+                GradientStopColor="#90a4ae"
+                GradientRotationAngle="90" />
+            <ScrollView>
+                <StackLayout Spacing="16" Padding="16">
+                    <auroraControls:Tile
+                        x:Name="cupertino"
+                        Text="Cupertino" 
+                        EmbeddedImageName="ios_logo.svg"
+                        ButtonBackgroundColor="#607d8b"
+                        FontColor="#E9ECEF"
+                        Clicked="Handle_Clicked"/>
+                    <auroraControls:Tile
+                        x:Name="material"
+                        Text="Material" 
+                        EmbeddedImageName="android_logo.svg"
+                        ButtonBackgroundColor="#c8e6c9"
+                        FontColor="#71AA3A"
+                        Clicked="Handle_Clicked"/>     
+                    <auroraControls:Tile
+                        x:Name="loading"
+                        Text="Loading" 
+                        EmbeddedImageName="loading_logo.svg"
+                        ButtonBackgroundColor="#0d47a1"
+                        FontColor="#ffffff"
+                        Clicked="Handle_Clicked"/> 
+                    <auroraControls:Tile
+                        x:Name="floatLabelControls"
+                        Text="Float Label Fields" 
+                        EmbeddedImageName="float_label_logo.svg"
+                        ButtonBackgroundColor="#ffb74d"
+                        FontColor="#3C5059"
+                        Clicked="Handle_Clicked"/> 
+                    <auroraControls:Tile
+                        x:Name="gauges"
+                        Text="Gauges" 
+                        EmbeddedImageName="gauge_logo.svg"
+                        ButtonBackgroundColor="#616161"
+                        FontColor="#80BB41"
+                        Clicked="Handle_Clicked"/>   
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
