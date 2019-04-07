@@ -2291,6 +2291,107 @@ namespace AuroraBorealis.Droid
 			global::Aurora.Droid.Resource.Styleable.ViewStubCompat_android_id = global::AuroraBorealis.Droid.Resource.Styleable.ViewStubCompat_android_id;
 			global::Aurora.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::AuroraBorealis.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
 			global::Aurora.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::AuroraBorealis.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Xamarin.Essentials.Resource.Attribute.font = global::AuroraBorealis.Droid.Resource.Attribute.font;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::AuroraBorealis.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderCerts = global::AuroraBorealis.Droid.Resource.Attribute.fontProviderCerts;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderFetchStrategy = global::AuroraBorealis.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderFetchTimeout = global::AuroraBorealis.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderPackage = global::AuroraBorealis.Droid.Resource.Attribute.fontProviderPackage;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderQuery = global::AuroraBorealis.Droid.Resource.Attribute.fontProviderQuery;
+			global::Xamarin.Essentials.Resource.Attribute.fontStyle = global::AuroraBorealis.Droid.Resource.Attribute.fontStyle;
+			global::Xamarin.Essentials.Resource.Attribute.fontWeight = global::AuroraBorealis.Droid.Resource.Attribute.fontWeight;
+			global::Xamarin.Essentials.Resource.Boolean.abc_action_bar_embed_tabs = global::AuroraBorealis.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Xamarin.Essentials.Resource.Color.notification_action_color_filter = global::AuroraBorealis.Droid.Resource.Color.notification_action_color_filter;
+			global::Xamarin.Essentials.Resource.Color.notification_icon_bg_color = global::AuroraBorealis.Droid.Resource.Color.notification_icon_bg_color;
+			global::Xamarin.Essentials.Resource.Color.ripple_material_light = global::AuroraBorealis.Droid.Resource.Color.ripple_material_light;
+			global::Xamarin.Essentials.Resource.Color.secondary_text_default_material_light = global::AuroraBorealis.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Xamarin.Essentials.Resource.Dimension.compat_button_inset_horizontal_material = global::AuroraBorealis.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Xamarin.Essentials.Resource.Dimension.compat_button_inset_vertical_material = global::AuroraBorealis.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Xamarin.Essentials.Resource.Dimension.compat_button_padding_horizontal_material = global::AuroraBorealis.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Xamarin.Essentials.Resource.Dimension.compat_button_padding_vertical_material = global::AuroraBorealis.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Xamarin.Essentials.Resource.Dimension.compat_control_corner_material = global::AuroraBorealis.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Xamarin.Essentials.Resource.Dimension.notification_action_icon_size = global::AuroraBorealis.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Xamarin.Essentials.Resource.Dimension.notification_action_text_size = global::AuroraBorealis.Droid.Resource.Dimension.notification_action_text_size;
+			global::Xamarin.Essentials.Resource.Dimension.notification_big_circle_margin = global::AuroraBorealis.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Xamarin.Essentials.Resource.Dimension.notification_content_margin_start = global::AuroraBorealis.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Xamarin.Essentials.Resource.Dimension.notification_large_icon_height = global::AuroraBorealis.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Xamarin.Essentials.Resource.Dimension.notification_large_icon_width = global::AuroraBorealis.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Xamarin.Essentials.Resource.Dimension.notification_main_column_padding_top = global::AuroraBorealis.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Xamarin.Essentials.Resource.Dimension.notification_media_narrow_margin = global::AuroraBorealis.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Xamarin.Essentials.Resource.Dimension.notification_right_icon_size = global::AuroraBorealis.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Xamarin.Essentials.Resource.Dimension.notification_right_side_padding_top = global::AuroraBorealis.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Xamarin.Essentials.Resource.Dimension.notification_small_icon_background_padding = global::AuroraBorealis.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Xamarin.Essentials.Resource.Dimension.notification_small_icon_size_as_large = global::AuroraBorealis.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Xamarin.Essentials.Resource.Dimension.notification_subtext_size = global::AuroraBorealis.Droid.Resource.Dimension.notification_subtext_size;
+			global::Xamarin.Essentials.Resource.Dimension.notification_top_pad = global::AuroraBorealis.Droid.Resource.Dimension.notification_top_pad;
+			global::Xamarin.Essentials.Resource.Dimension.notification_top_pad_large_text = global::AuroraBorealis.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Xamarin.Essentials.Resource.Drawable.notification_action_background = global::AuroraBorealis.Droid.Resource.Drawable.notification_action_background;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg = global::AuroraBorealis.Droid.Resource.Drawable.notification_bg;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg_low = global::AuroraBorealis.Droid.Resource.Drawable.notification_bg_low;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg_low_normal = global::AuroraBorealis.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg_low_pressed = global::AuroraBorealis.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg_normal = global::AuroraBorealis.Droid.Resource.Drawable.notification_bg_normal;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg_normal_pressed = global::AuroraBorealis.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Xamarin.Essentials.Resource.Drawable.notification_icon_background = global::AuroraBorealis.Droid.Resource.Drawable.notification_icon_background;
+			global::Xamarin.Essentials.Resource.Drawable.notification_template_icon_bg = global::AuroraBorealis.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Xamarin.Essentials.Resource.Drawable.notification_template_icon_low_bg = global::AuroraBorealis.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Xamarin.Essentials.Resource.Drawable.notification_tile_bg = global::AuroraBorealis.Droid.Resource.Drawable.notification_tile_bg;
+			global::Xamarin.Essentials.Resource.Drawable.notify_panel_notification_icon_bg = global::AuroraBorealis.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Xamarin.Essentials.Resource.Id.action_container = global::AuroraBorealis.Droid.Resource.Id.action_container;
+			global::Xamarin.Essentials.Resource.Id.action_divider = global::AuroraBorealis.Droid.Resource.Id.action_divider;
+			global::Xamarin.Essentials.Resource.Id.action_image = global::AuroraBorealis.Droid.Resource.Id.action_image;
+			global::Xamarin.Essentials.Resource.Id.action_text = global::AuroraBorealis.Droid.Resource.Id.action_text;
+			global::Xamarin.Essentials.Resource.Id.actions = global::AuroraBorealis.Droid.Resource.Id.actions;
+			global::Xamarin.Essentials.Resource.Id.async = global::AuroraBorealis.Droid.Resource.Id.async;
+			global::Xamarin.Essentials.Resource.Id.blocking = global::AuroraBorealis.Droid.Resource.Id.blocking;
+			global::Xamarin.Essentials.Resource.Id.chronometer = global::AuroraBorealis.Droid.Resource.Id.chronometer;
+			global::Xamarin.Essentials.Resource.Id.forever = global::AuroraBorealis.Droid.Resource.Id.forever;
+			global::Xamarin.Essentials.Resource.Id.icon = global::AuroraBorealis.Droid.Resource.Id.icon;
+			global::Xamarin.Essentials.Resource.Id.icon_group = global::AuroraBorealis.Droid.Resource.Id.icon_group;
+			global::Xamarin.Essentials.Resource.Id.info = global::AuroraBorealis.Droid.Resource.Id.info;
+			global::Xamarin.Essentials.Resource.Id.italic = global::AuroraBorealis.Droid.Resource.Id.italic;
+			global::Xamarin.Essentials.Resource.Id.line1 = global::AuroraBorealis.Droid.Resource.Id.line1;
+			global::Xamarin.Essentials.Resource.Id.line3 = global::AuroraBorealis.Droid.Resource.Id.line3;
+			global::Xamarin.Essentials.Resource.Id.normal = global::AuroraBorealis.Droid.Resource.Id.normal;
+			global::Xamarin.Essentials.Resource.Id.notification_background = global::AuroraBorealis.Droid.Resource.Id.notification_background;
+			global::Xamarin.Essentials.Resource.Id.notification_main_column = global::AuroraBorealis.Droid.Resource.Id.notification_main_column;
+			global::Xamarin.Essentials.Resource.Id.notification_main_column_container = global::AuroraBorealis.Droid.Resource.Id.notification_main_column_container;
+			global::Xamarin.Essentials.Resource.Id.right_icon = global::AuroraBorealis.Droid.Resource.Id.right_icon;
+			global::Xamarin.Essentials.Resource.Id.right_side = global::AuroraBorealis.Droid.Resource.Id.right_side;
+			global::Xamarin.Essentials.Resource.Id.tag_transition_group = global::AuroraBorealis.Droid.Resource.Id.tag_transition_group;
+			global::Xamarin.Essentials.Resource.Id.text = global::AuroraBorealis.Droid.Resource.Id.text;
+			global::Xamarin.Essentials.Resource.Id.text2 = global::AuroraBorealis.Droid.Resource.Id.text2;
+			global::Xamarin.Essentials.Resource.Id.time = global::AuroraBorealis.Droid.Resource.Id.time;
+			global::Xamarin.Essentials.Resource.Id.title = global::AuroraBorealis.Droid.Resource.Id.title;
+			global::Xamarin.Essentials.Resource.Integer.status_bar_notification_info_maxnum = global::AuroraBorealis.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Xamarin.Essentials.Resource.Layout.notification_action = global::AuroraBorealis.Droid.Resource.Layout.notification_action;
+			global::Xamarin.Essentials.Resource.Layout.notification_action_tombstone = global::AuroraBorealis.Droid.Resource.Layout.notification_action_tombstone;
+			global::Xamarin.Essentials.Resource.Layout.notification_template_custom_big = global::AuroraBorealis.Droid.Resource.Layout.notification_template_custom_big;
+			global::Xamarin.Essentials.Resource.Layout.notification_template_icon_group = global::AuroraBorealis.Droid.Resource.Layout.notification_template_icon_group;
+			global::Xamarin.Essentials.Resource.Layout.notification_template_part_chronometer = global::AuroraBorealis.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Xamarin.Essentials.Resource.Layout.notification_template_part_time = global::AuroraBorealis.Droid.Resource.Layout.notification_template_part_time;
+			global::Xamarin.Essentials.Resource.String.status_bar_notification_info_overflow = global::AuroraBorealis.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification = global::AuroraBorealis.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Info = global::AuroraBorealis.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::AuroraBorealis.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Time = global::AuroraBorealis.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Title = global::AuroraBorealis.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Xamarin.Essentials.Resource.Style.Widget_Compat_NotificationActionContainer = global::AuroraBorealis.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Xamarin.Essentials.Resource.Style.Widget_Compat_NotificationActionText = global::AuroraBorealis.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily = global::AuroraBorealis.Droid.Resource.Styleable.FontFamily;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderAuthority = global::AuroraBorealis.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderCerts = global::AuroraBorealis.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::AuroraBorealis.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::AuroraBorealis.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderPackage = global::AuroraBorealis.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderQuery = global::AuroraBorealis.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont = global::AuroraBorealis.Droid.Resource.Styleable.FontFamilyFont;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_font = global::AuroraBorealis.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_fontStyle = global::AuroraBorealis.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_fontWeight = global::AuroraBorealis.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_font = global::AuroraBorealis.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_fontStyle = global::AuroraBorealis.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_fontWeight = global::AuroraBorealis.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_in = global::AuroraBorealis.Droid.Resource.Animation.abc_fade_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_out = global::AuroraBorealis.Droid.Resource.Animation.abc_fade_out;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::AuroraBorealis.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -3028,7 +3129,6 @@ namespace AuroraBorealis.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.design_ic_visibility_off = global::AuroraBorealis.Droid.Resource.Drawable.design_ic_visibility_off;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.design_password_eye = global::AuroraBorealis.Droid.Resource.Drawable.design_password_eye;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.design_snackbar_background = global::AuroraBorealis.Droid.Resource.Drawable.design_snackbar_background;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.MaterialActivityIndicatorBackground = global::AuroraBorealis.Droid.Resource.Drawable.MaterialActivityIndicatorBackground;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.navigation_empty_icon = global::AuroraBorealis.Droid.Resource.Drawable.navigation_empty_icon;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notification_action_background = global::AuroraBorealis.Droid.Resource.Drawable.notification_action_background;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notification_bg = global::AuroraBorealis.Droid.Resource.Drawable.notification_bg;
@@ -6617,26 +6717,26 @@ namespace AuroraBorealis.Droid
 			// aapt resource value: 0x7f020055
 			public const int avd_hide_password = 2130837589;
 			
+			// aapt resource value: 0x7f020132
+			public const int avd_hide_password_1 = 2130837810;
+			
 			// aapt resource value: 0x7f020133
-			public const int avd_hide_password_1 = 2130837811;
+			public const int avd_hide_password_2 = 2130837811;
 			
 			// aapt resource value: 0x7f020134
-			public const int avd_hide_password_2 = 2130837812;
-			
-			// aapt resource value: 0x7f020135
-			public const int avd_hide_password_3 = 2130837813;
+			public const int avd_hide_password_3 = 2130837812;
 			
 			// aapt resource value: 0x7f020056
 			public const int avd_show_password = 2130837590;
 			
+			// aapt resource value: 0x7f020135
+			public const int avd_show_password_1 = 2130837813;
+			
 			// aapt resource value: 0x7f020136
-			public const int avd_show_password_1 = 2130837814;
+			public const int avd_show_password_2 = 2130837814;
 			
 			// aapt resource value: 0x7f020137
-			public const int avd_show_password_2 = 2130837815;
-			
-			// aapt resource value: 0x7f020138
-			public const int avd_show_password_3 = 2130837816;
+			public const int avd_show_password_3 = 2130837815;
 			
 			// aapt resource value: 0x7f020057
 			public const int design_bottom_navigation_item_background = 2130837591;
@@ -7191,112 +7291,109 @@ namespace AuroraBorealis.Droid
 			public const int ios = 2130837774;
 			
 			// aapt resource value: 0x7f02010f
-			public const int MaterialActivityIndicatorBackground = 2130837775;
+			public const int mr_button_connected_dark = 2130837775;
 			
 			// aapt resource value: 0x7f020110
-			public const int mr_button_connected_dark = 2130837776;
+			public const int mr_button_connected_light = 2130837776;
 			
 			// aapt resource value: 0x7f020111
-			public const int mr_button_connected_light = 2130837777;
+			public const int mr_button_connecting_dark = 2130837777;
 			
 			// aapt resource value: 0x7f020112
-			public const int mr_button_connecting_dark = 2130837778;
+			public const int mr_button_connecting_light = 2130837778;
 			
 			// aapt resource value: 0x7f020113
-			public const int mr_button_connecting_light = 2130837779;
+			public const int mr_button_dark = 2130837779;
 			
 			// aapt resource value: 0x7f020114
-			public const int mr_button_dark = 2130837780;
+			public const int mr_button_light = 2130837780;
 			
 			// aapt resource value: 0x7f020115
-			public const int mr_button_light = 2130837781;
+			public const int mr_dialog_close_dark = 2130837781;
 			
 			// aapt resource value: 0x7f020116
-			public const int mr_dialog_close_dark = 2130837782;
+			public const int mr_dialog_close_light = 2130837782;
 			
 			// aapt resource value: 0x7f020117
-			public const int mr_dialog_close_light = 2130837783;
+			public const int mr_dialog_material_background_dark = 2130837783;
 			
 			// aapt resource value: 0x7f020118
-			public const int mr_dialog_material_background_dark = 2130837784;
+			public const int mr_dialog_material_background_light = 2130837784;
 			
 			// aapt resource value: 0x7f020119
-			public const int mr_dialog_material_background_light = 2130837785;
+			public const int mr_group_collapse = 2130837785;
 			
 			// aapt resource value: 0x7f02011a
-			public const int mr_group_collapse = 2130837786;
+			public const int mr_group_expand = 2130837786;
 			
 			// aapt resource value: 0x7f02011b
-			public const int mr_group_expand = 2130837787;
+			public const int mr_media_pause_dark = 2130837787;
 			
 			// aapt resource value: 0x7f02011c
-			public const int mr_media_pause_dark = 2130837788;
+			public const int mr_media_pause_light = 2130837788;
 			
 			// aapt resource value: 0x7f02011d
-			public const int mr_media_pause_light = 2130837789;
+			public const int mr_media_play_dark = 2130837789;
 			
 			// aapt resource value: 0x7f02011e
-			public const int mr_media_play_dark = 2130837790;
+			public const int mr_media_play_light = 2130837790;
 			
 			// aapt resource value: 0x7f02011f
-			public const int mr_media_play_light = 2130837791;
+			public const int mr_media_stop_dark = 2130837791;
 			
 			// aapt resource value: 0x7f020120
-			public const int mr_media_stop_dark = 2130837792;
+			public const int mr_media_stop_light = 2130837792;
 			
 			// aapt resource value: 0x7f020121
-			public const int mr_media_stop_light = 2130837793;
+			public const int mr_vol_type_audiotrack_dark = 2130837793;
 			
 			// aapt resource value: 0x7f020122
-			public const int mr_vol_type_audiotrack_dark = 2130837794;
+			public const int mr_vol_type_audiotrack_light = 2130837794;
 			
 			// aapt resource value: 0x7f020123
-			public const int mr_vol_type_audiotrack_light = 2130837795;
+			public const int navigation_empty_icon = 2130837795;
 			
 			// aapt resource value: 0x7f020124
-			public const int navigation_empty_icon = 2130837796;
+			public const int notification_action_background = 2130837796;
 			
 			// aapt resource value: 0x7f020125
-			public const int notification_action_background = 2130837797;
+			public const int notification_bg = 2130837797;
 			
 			// aapt resource value: 0x7f020126
-			public const int notification_bg = 2130837798;
+			public const int notification_bg_low = 2130837798;
 			
 			// aapt resource value: 0x7f020127
-			public const int notification_bg_low = 2130837799;
+			public const int notification_bg_low_normal = 2130837799;
 			
 			// aapt resource value: 0x7f020128
-			public const int notification_bg_low_normal = 2130837800;
+			public const int notification_bg_low_pressed = 2130837800;
 			
 			// aapt resource value: 0x7f020129
-			public const int notification_bg_low_pressed = 2130837801;
+			public const int notification_bg_normal = 2130837801;
 			
 			// aapt resource value: 0x7f02012a
-			public const int notification_bg_normal = 2130837802;
+			public const int notification_bg_normal_pressed = 2130837802;
 			
 			// aapt resource value: 0x7f02012b
-			public const int notification_bg_normal_pressed = 2130837803;
-			
-			// aapt resource value: 0x7f02012c
-			public const int notification_icon_background = 2130837804;
-			
-			// aapt resource value: 0x7f020131
-			public const int notification_template_icon_bg = 2130837809;
-			
-			// aapt resource value: 0x7f020132
-			public const int notification_template_icon_low_bg = 2130837810;
-			
-			// aapt resource value: 0x7f02012d
-			public const int notification_tile_bg = 2130837805;
-			
-			// aapt resource value: 0x7f02012e
-			public const int notify_panel_notification_icon_bg = 2130837806;
-			
-			// aapt resource value: 0x7f02012f
-			public const int tooltip_frame_dark = 2130837807;
+			public const int notification_icon_background = 2130837803;
 			
 			// aapt resource value: 0x7f020130
-			public const int tooltip_frame_light = 2130837808;
+			public const int notification_template_icon_bg = 2130837808;
+			
+			// aapt resource value: 0x7f020131
+			public const int notification_template_icon_low_bg = 2130837809;
+			
+			// aapt resource value: 0x7f02012c
+			public const int notification_tile_bg = 2130837804;
+			
+			// aapt resource value: 0x7f02012d
+			public const int notify_panel_notification_icon_bg = 2130837805;
+			
+			// aapt resource value: 0x7f02012e
+			public const int tooltip_frame_dark = 2130837806;
+			
+			// aapt resource value: 0x7f02012f
+			public const int tooltip_frame_light = 2130837807;
 			
 			static Drawable()
 			{
