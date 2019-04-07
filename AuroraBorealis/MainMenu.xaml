@@ -45,6 +45,13 @@
                         FontColor="#ffffff"
                         Clicked="Handle_Clicked"/> 
                     <auroraControls:Tile
+                        x:Name="floatLabelControls"
+                        Text="Float Label Fields" 
+                        EmbeddedImageName="float_label_logo.svg"
+                        ButtonBackgroundColor="#ffb74d"
+                        FontColor="#3C5059"
+                        Clicked="Handle_Clicked"/> 
+                    <auroraControls:Tile
                         x:Name="gauges"
                         Text="Gauges" 
                         EmbeddedImageName="gauge_logo.svg"
