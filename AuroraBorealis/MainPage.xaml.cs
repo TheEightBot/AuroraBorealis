@@ -11,6 +11,7 @@ namespace AuroraBorealis
     {
         public MainPage()
         {
-            InitializeComponent();        }
+            InitializeComponent();        
+        }
     }
 }
