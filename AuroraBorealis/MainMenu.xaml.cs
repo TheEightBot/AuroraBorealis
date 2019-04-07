@@ -22,6 +22,14 @@ namespace AuroraBorealis
             {
                 await this.Navigation.PushAsync(new Material());
             }
+            else if (sender == auroraControlsSample1)
+            {
+                await this.Navigation.PushAsync(new Controls());
+            }
+            else if (sender == auroraControlsSample2)
+            {
+                await this.Navigation.PushAsync(new OtherControls());
+            }
             else if (sender == floatLabelControls)
             {
                 await this.Navigation.PushAsync(new FloatLabelSamples());

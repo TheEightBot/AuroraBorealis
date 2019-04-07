@@ -31,7 +31,7 @@
                 x:Name="cfg1" ProgressColor="White" />
             
             <Image
-                Source="https://avatars2.githubusercontent.com/u/1676321"
+                Source="https://api.adorable.io/avatars/215/agro@dog.io.png"
                 Margin="16, 16, 16, 16"
                 Grid.Row="0">
                 <Image.Effects>
@@ -66,7 +66,7 @@
                 x:Name="tile" 
                 Margin="16, 0"
                 CornerRadius="8"
-                EmbeddedImageName="AuroraLogo.svg" OverlayColor="White"
+                EmbeddedImageName="aurora_logo.svg" OverlayColor="White"
                 Text="Visual Effects" FontColor="White"
                 ButtonBackgroundColor="#301A48"
                 Grid.Row="3"

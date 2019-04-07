@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:auroraControls="clr-namespace:Aurora.Controls;assembly=Aurora"
+    xmlns:auroraLoading="clr-namespace:Aurora.Loading;assembly=Aurora"
+    xmlns:auroraVisualEffects="clr-namespace:Aurora.VisualEffects;assembly=Aurora"
+    xmlns:auroraEffects="clr-namespace:Aurora.Effects;assembly=Aurora"
+    xmlns:auroraImageProcessing="clr-namespace:Aurora.ImageProcessing;assembly=Aurora"
+    xmlns:auroraGauges="clr-namespace:Aurora.Gauges;assembly=Aurora"
+    x:Class="AuroraBorealis.OtherControls">
+    <ContentPage.Content>
+        <Grid
+            RowSpacing="8"
+            Margin="8">
+            
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            
+            <auroraControls:StepIndicator x:Name="_step" 
+                                  NumberOfSteps="4" CurrentStep="2" DisplayStepNumber="true" 
+                                  FontColor="White" 
+                                  LineColor="Black" InactiveColor="Gray" HighlightColor="DarkCyan" 
+                                  HeightRequest="150" Grid.Row="0" />
+            
+            <auroraControls:Tile x:Name="_tile" HeightRequest="100" 
+                                 Grid.Row="1" 
+                                 Margin="8" ContentPadding="8"
+                                 Text="Tile Control" FontSize="12"
+                                 TextAlignment="Center"
+                                 EmbeddedImageName="aurora_logo.svg"
+                                 ButtonBackgroundColor="Maroon" OverlayColor="White"
+                                 BorderColor="Lime" ShadowColor="Purple"
+                                 Ripples="true"
+                                 CornerRadius="40" />
+            
+            <auroraControls:NumericBumper x:Name="_numericBumper" 
+                                          BackgroundColor="Silver" ButtonColor="Lime"
+                                          FontColor="Blue" BorderColor="Fuchsia"
+                                          Maximum="360" Minimum="0" WidthRequest="300" 
+                                          Grid.Row="2" />
+            
+            <auroraControls:ImageButton x:Name="_imageButton" EmbeddedImageName="xamarin_logo.svg" 
+                                        VerticalOptions="CenterAndExpand" HeightRequest="100" 
+                                        OverlayColor="Blue" Grid.Row="3" />
+        
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
