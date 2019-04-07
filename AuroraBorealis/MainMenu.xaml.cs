@@ -22,6 +22,10 @@ namespace AuroraBorealis
             {
                 await this.Navigation.PushAsync(new Material());
             }
+            else if (sender == gauges)
+            {
+                await this.Navigation.PushAsync(new Gauges());
+            }
         }
     }
 }
