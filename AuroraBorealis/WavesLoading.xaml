@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:aurora="clr-namespace:Aurora.Loading;assembly=Aurora"
+    xmlns:auroraControls="clr-namespace:Aurora.Controls;assembly=Aurora"
+    x:Class="AuroraBorealis.WavesLoading"
+    BackgroundColor="Gray">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="250" />
+            </Grid.RowDefinitions>
+            <aurora:Waves x:Name="waves" Grid.Row="1"
+                          WaveCount="3" WaveStacks="3" WaveHeight="85"
+                          ForegroundWaveColor="Red" BackgroundWaveColor="Green" BackgroundColor="Transparent" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
