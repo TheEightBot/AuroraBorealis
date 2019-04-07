@@ -59,7 +59,7 @@
                
             <auroraControls:SvgImageView 
                 x:Name="svgImageView"
-                EmbeddedImageName="XamarinLogo.svg"
+                EmbeddedImageName="xamarin_logo.svg"
                 Grid.Row="2" />
            
             <auroraControls:Tile 
