@@ -61,7 +61,7 @@
                 
             <auroraControls:ControlPanelSlider x:Name="cps"
                 WidthRequest="80" HorizontalOptions="Center"
-                EmbeddedImageName="AuroraLogo.svg" EmbeddedImageOverlayColor="#EC008C"
+                EmbeddedImageName="aurora_logo.svg" EmbeddedImageOverlayColor="#EC008C"
                 ProgressBackgroundColor="#333666" ProgressColor="#00FFFF"
                 TouchedAnimationDuration="600"
                 Orientation="Vertical" 
