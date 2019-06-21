@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage 
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:auroraControls="clr-namespace:Aurora.Controls;assembly=Aurora"
-    x:Class="AuroraBorealis.MainMenu">
+    x:Class="AuroraBorealis.MainMenu"
+    Title="Aurora Controls">
     <ContentPage.Resources>
         <Style TargetType="auroraControls:Tile">
             <Setter Property="MaxImageSize" Value="128,128" />

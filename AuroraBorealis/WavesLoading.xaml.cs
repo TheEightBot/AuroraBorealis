@@ -15,7 +15,7 @@ namespace AuroraBorealis
         protected override void OnAppearing()
         {
             base.OnAppearing();
-            waves.StartAnimating(16, 500);
+            waves.StartAnimating(16, 2400);
         }
 
         protected override void OnDisappearing()

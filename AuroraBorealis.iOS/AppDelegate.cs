@@ -4,6 +4,7 @@ using System.Linq;
 
 using Foundation;
 using UIKit;
+using Aurora.iOS.Effects;
 
 namespace AuroraBorealis.iOS
 {
@@ -22,6 +23,9 @@ namespace AuroraBorealis.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
+            //preservations
+            var chrome = new NoControlChromeEffect();
+
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
             Aurora.ComponentLoader.Init("MCfkgszBe12F8yhiN/pLhPUX+pzv1ZHPxLcH2iWGUtep8M+mknK1JsCWZ1dmAFmCT7Tcd7iit7AKqQ7y84W4GHtKr3VeVBMffF+HInITpRZ8imrmRJITNQ7vM//0/0Uqvs5SJw4zYHdnwKViCDmmZblB9as5RdbqDb6uKYWvBk0=");
