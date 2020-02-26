@@ -41,7 +41,7 @@
                                                       TitleFontSize="16"/>
                 
                 <aurora:FloatLabelNumericIntEntry x:Name="integerEntry" Placeholder="Float Label Numeric Int Entry" 
-                                                  PrefixValue="$" Format="0000"  MaxValue="1000"
+                                                  PrefixValue="$" MaxValue="1000"
                                                   ActiveColor="Green" InactiveColor="Silver" DisabledColor="Red" 
                                                   BorderSize="2" BorderStyle="RoundedUnderline"
                                                   TitleFontSize="12" />

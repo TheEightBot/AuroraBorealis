@@ -32,7 +32,6 @@
                                  Grid.Row="1" 
                                  Margin="8" ContentPadding="8"
                                  Text="Tile Control" FontSize="12"
-                                 TextAlignment="Center"
                                  EmbeddedImageName="aurora_logo.svg"
                                  ButtonBackgroundColor="Maroon" OverlayColor="White"
                                  BorderColor="Lime" ShadowColor="Purple"
