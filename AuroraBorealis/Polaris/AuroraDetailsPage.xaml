@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:aurora="http://eightbot.com/aurora"
+    x:Class="AuroraBorealis.Polaris.AuroraDetailsPage"
+    Title="Borealis Details" >
+	<ContentPage.Content>
+        <Grid Padding="8">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="125" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="125" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="125" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <aurora:CircularGauge x:Name="_durationGauge" ProgressBackgroundColor="Black" EndCapType="Rounded" Grid.Row="0" Grid.Column="0" StartingDegree="-90" EndingDegree="125"/>
+            <Label Text="Duration" Grid.Row="1" Grid.Column="0" HorizontalOptions="Center"/>
+            <aurora:CircularGauge x:Name="_intensityGauge" ProgressBackgroundColor="Black" ProgressThickness="20" Grid.Row="0" Grid.Column="1" StartingDegree="-90" EndingDegree="250" />
+            <Label Text="Intensity" Grid.Row="1" Grid.Column="1" HorizontalOptions="Center" />
+            <aurora:CircularGauge x:Name="_coverageGauge" ProgressBackgroundColor="Black" EndCapType="Rounded" Grid.Row="2" Grid.Column="0" StartingDegree="-90" EndingDegree="45"/>
+            <Label Text="Coverage" Grid.Row="3" Grid.Column="0" HorizontalOptions="Center"/>
+            <aurora:CircularGauge x:Name="_blueGauge" EndCapType="Rounded" Grid.Row="2" Grid.Column="1" StartingDegree="-90" EndingDegree="75"/>
+            <Label Text="Blues" Grid.Row="3" Grid.Column="1" HorizontalOptions="Center" />
+            <aurora:CircularGauge x:Name="_greenGauge" EndCapType="Rounded" Grid.Row="4" Grid.Column="0" StartingDegree="-90" EndingDegree="60"/>
+            <Label Text="Greens" Grid.Row="5" Grid.Column="0" HorizontalOptions="Center"/>
+            <aurora:CircularGauge x:Name="_redGauge" EndCapType="Rounded" Grid.Row="4" Grid.Column="1" StartingDegree="-90" EndingDegree="5"/>
+            <Label Text="Reds" Grid.Row="5" Grid.Column="1" HorizontalOptions="Center" />
+            <aurora:SvgImageButton x:Name="_clockButton" EmbeddedImageName="clock.svg" VerticalOptions="CenterAndExpand" HeightRequest="50" OverlayColor="Blue" Grid.Row="6" Grid.Column="0" >
+                <aurora:SvgImageButton.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Clock_Tapped" />
+                </aurora:SvgImageButton.GestureRecognizers>
+            </aurora:SvgImageButton>
+            <aurora:SvgImageButton x:Name="_emissionsButton" EmbeddedImageName="atomic.svg" VerticalOptions="CenterAndExpand" HeightRequest="50" OverlayColor="Blue" Grid.Row="6" Grid.Column="1" >
+                <aurora:SvgImageButton.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Emissions_Tapped" />
+                </aurora:SvgImageButton.GestureRecognizers>
+            </aurora:SvgImageButton>
+        </Grid>
+	</ContentPage.Content>
+</ContentPage>

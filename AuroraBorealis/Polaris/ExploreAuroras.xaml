@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:aurora="http://eightbot.com/aurora"
+    x:Class="AuroraBorealis.Polaris.ExploreAuroras"
+    Title="Explore Auroras" >
+	<ContentPage.Content>
+        <ScrollView Orientation="Horizontal" Margin="6">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <aurora:CardViewLayout x:Name="_borealis" Grid.Row="1" Grid.Column="0" CornerRadius="20" BackgroundColor="Black" HeightRequest="500" WidthRequest="350" >
+                    <aurora:CardViewLayout.Content>
+                        <Grid x:Name="borealisContent">
+                            <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Image Aspect="AspectFill" Source="https://upload.wikimedia.org/wikipedia/commons/0/09/AGOModra_aurora.jpg" 
+                            Grid.Row="0" Grid.RowSpan="4"/>
+                        <Label Text="Aurora Borealis" 
+                            TextColor="White" FontAttributes="Bold" Margin="16" Grid.Row="3" 
+                            FontSize="24" HorizontalTextAlignment="Center" VerticalOptions="End" />
+                        </Grid>
+                    </aurora:CardViewLayout.Content>
+                    <aurora:CardViewLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Borealis_Tapped" />
+                    </aurora:CardViewLayout.GestureRecognizers>
+                </aurora:CardViewLayout>
+                <aurora:CardViewLayout x:Name="_australis" Grid.Row="1" Grid.Column="1" CornerRadius="20" BackgroundColor="Green" HeightRequest="500" WidthRequest="350" >
+                    <aurora:CardViewLayout.Content>
+                        <Grid x:Name="australisContent">
+                            <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Image Aspect="AspectFill" Source="https://upload.wikimedia.org/wikipedia/commons/0/07/Aurore_australe_-_Aurora_australis.jpg" 
+                            Grid.Column="0" Grid.Row="0" Grid.RowSpan="4"/>
+                        <Label Text="Aurora Australis" 
+                            TextColor="White" FontAttributes="Bold" Margin="16" Grid.Row="3" 
+                            FontSize="24" HorizontalTextAlignment="Center" VerticalOptions="End"/>
+                        </Grid>
+                    </aurora:CardViewLayout.Content>
+                    <aurora:CardViewLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Australis_Tapped" />
+                    </aurora:CardViewLayout.GestureRecognizers>
+                </aurora:CardViewLayout>
+            </Grid>
+        </ScrollView>
+	</ContentPage.Content>
+</ContentPage>

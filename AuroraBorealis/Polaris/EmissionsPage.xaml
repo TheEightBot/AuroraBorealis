@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:aurora="http://eightbot.com/aurora"
+    x:Class="AuroraBorealis.Polaris.EmissionsPage"
+    Title="Emissions">
+    <ContentPage.Content>
+        <StackLayout x:Name="emissions" Padding="8" HorizontalOptions="CenterAndExpand">
+            <aurora:DonutChart x:Name="_emissionChart" StartingDegree="-90" EndingDegree="80" ProgressColor="#7CFC00" ProgressBackgroundColor="#00008B" 
+                                     HeightRequest="400" WidthRequest="200" VerticalOptions="StartAndExpand"></aurora:DonutChart>
+            <Label Text="Oxygen Emissions" HorizontalTextAlignment="Center" ></Label>
+            <aurora:NumericBumper x:Name="_oxygenEmissions" BackgroundColor="Black" ButtonColor="#7CFC00" Maximum="360" Minimum="0" WidthRequest="300" ></aurora:NumericBumper>
+            <aurora:FlatButton x:Name="_computeButton" Clicked="Handle_Clicked" Text="Press and Hold to Compute!" InkColor="#00008B" BackgroundColor="#7CFC00" FontColor="Black" VerticalOptions="End" ></aurora:FlatButton>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -2,12 +2,7 @@
 <ContentPage 
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-    xmlns:auroraControls="clr-namespace:Aurora.Controls;assembly=Aurora"
-    xmlns:auroraLoading="clr-namespace:Aurora.Loading;assembly=Aurora"
-    xmlns:auroraVisualEffects="clr-namespace:Aurora.VisualEffects;assembly=Aurora"
-    xmlns:auroraEffects="clr-namespace:Aurora.Effects;assembly=Aurora"
-    xmlns:auroraImageProcessing="clr-namespace:Aurora.ImageProcessing;assembly=Aurora"
-    xmlns:auroraGauges="clr-namespace:Aurora.Gauges;assembly=Aurora"
+    xmlns:aurora="http://eightbot.com/aurora"
     x:Class="AuroraBorealis.Controls">
     <ContentPage.Content>
         <Grid
@@ -22,12 +17,12 @@
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
             
-            <auroraControls:GradientColorView 
+            <aurora:GradientColorView 
                 x:Name="cgv"
                 GradientStartColor="#00FFFF" GradientStopColor="#EC008C"
                 Grid.Row="0" />
             
-            <auroraGauges:CircularFillGauge
+            <aurora:CircularFillGauge
                 x:Name="cfg1" ProgressColor="White" />
             
             <Image
@@ -35,18 +30,18 @@
                 Margin="16, 16, 16, 16"
                 Grid.Row="0">
                 <Image.Effects>
-                    <auroraEffects:ImageProcessingEffect x:Name="imageProcessingEffect">
-                    </auroraEffects:ImageProcessingEffect>
+                    <aurora:ImageProcessingEffect x:Name="imageProcessingEffect">
+                    </aurora:ImageProcessingEffect>
                 </Image.Effects>
                 
             </Image>
             
-            <auroraControls:CircularExclusionView 
+            <aurora:CircularExclusionView 
                 x:Name="cev"
                 Side="Bottom" CutoutShape="Concave" CutoutDepth="140" CutoutPercent="40" CircularExclusionColor="#CECECE"
                 Grid.Row="0" />    
                 
-            <auroraControls:GradientPillButton 
+            <aurora:GradientPillButton 
                 x:Name="pillButton" 
                 Margin="16, 0"
                 ButtonBackgroundStartColor="#EC008C"
@@ -57,12 +52,12 @@
                 Grid.Row="1"
                 Clicked="Handle_Clicked" />
                
-            <auroraControls:SvgImageView 
+            <aurora:SvgImageView 
                 x:Name="svgImageView"
                 EmbeddedImageName="xamarin_logo.svg"
                 Grid.Row="2" />
            
-            <auroraControls:Tile 
+            <aurora:Tile 
                 x:Name="tile" 
                 Margin="16, 0"
                 CornerRadius="8"
@@ -72,9 +67,9 @@
                 Grid.Row="3"
                 Clicked="Tile_Clicked" />
             
-            <auroraControls:ConfettiView
+            <aurora:ConfettiView
                 x:Name="confetti"
-                InputTransparent="true" MaxParticles="75" Length="600"
+                InputTransparent="true" MaxParticles="25" Length="600"
                 Grid.Row="0" Grid.RowSpan="5" />
         
         </Grid>

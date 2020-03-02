@@ -1,12 +1,12 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage 
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:auroraControls="clr-namespace:Aurora.Controls;assembly=Aurora"
+    xmlns:aurora="http://eightbot.com/aurora"
     x:Class="AuroraBorealis.MainMenu"
     Title="Aurora Controls">
     <ContentPage.Resources>
-        <Style TargetType="auroraControls:Tile">
+        <Style TargetType="aurora:Tile">
             <Setter Property="MaxImageSize" Value="128,128" />
             <Setter Property="HeightRequest" Value="196" />
             <Setter Property="WidthRequest" Value="196" />
@@ -18,34 +18,42 @@
     </ContentPage.Resources>
     <ContentPage.Content>
         <Grid>
-            <auroraControls:GradientColorView 
+            <aurora:GradientColorView 
                 GradientStartColor="#eceff1"
                 GradientStopColor="#90a4ae"
                 GradientRotationAngle="90" />
             <ScrollView>
                 <StackLayout Spacing="16" Padding="16">
-                    <auroraControls:Tile
+                    <aurora:Tile
+                        x:Name="polaris"
+                        Text="Sample - Polaris" 
+                        EmbeddedImageName="aurora_logo.svg"
+                        ButtonBackgroundColor="#0043A3"
+                        OverlayColor="#00F54F"
+                        FontColor="#00F54F"
+                        Clicked="Handle_Clicked"/>
+                    <aurora:Tile
                         x:Name="cupertino"
                         Text="Cupertino" 
                         EmbeddedImageName="ios_logo.svg"
                         ButtonBackgroundColor="#607d8b"
                         FontColor="#E9ECEF"
                         Clicked="Handle_Clicked"/>
-                    <auroraControls:Tile
+                    <aurora:Tile
                         x:Name="material"
                         Text="Material" 
                         EmbeddedImageName="android_logo.svg"
                         ButtonBackgroundColor="#c8e6c9"
                         FontColor="#71AA3A"
                         Clicked="Handle_Clicked"/>     
-                    <auroraControls:Tile
+                    <aurora:Tile
                         x:Name="loading"
                         Text="Loading" 
                         EmbeddedImageName="loading_logo.svg"
                         ButtonBackgroundColor="#0d47a1"
                         FontColor="#ffffff"
                         Clicked="Handle_Clicked"/> 
-                    <auroraControls:Tile
+                    <aurora:Tile
                         x:Name="auroraControlsSample1"
                         Text="Aurora Samples 1" 
                         EmbeddedImageName="aurora_logo.svg"
@@ -53,7 +61,7 @@
                         ButtonBackgroundColor="#6a1b9a"
                         FontColor="#ec407a"
                         Clicked="Handle_Clicked"/> 
-                    <auroraControls:Tile
+                    <aurora:Tile
                         x:Name="auroraControlsSample2"
                         Text="Aurora Samples 2" 
                         EmbeddedImageName="aurora_logo.svg"
@@ -61,14 +69,14 @@
                         ButtonBackgroundColor="#ec407a"
                         FontColor="#6a1b9a"
                         Clicked="Handle_Clicked"/> 
-                    <auroraControls:Tile
+                    <aurora:Tile
                         x:Name="floatLabelControls"
                         Text="Float Label Fields" 
                         EmbeddedImageName="float_label_logo.svg"
                         ButtonBackgroundColor="#ffb74d"
                         FontColor="#3C5059"
                         Clicked="Handle_Clicked"/> 
-                    <auroraControls:Tile
+                    <aurora:Tile
                         x:Name="gauges"
                         Text="Gauges" 
                         EmbeddedImageName="gauge_logo.svg"

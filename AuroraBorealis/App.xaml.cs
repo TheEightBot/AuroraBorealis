@@ -10,6 +10,7 @@ namespace AuroraBorealis
         {
             InitializeComponent();
             Aurora.EmbeddedResourceLoader.LoadAssembly(typeof(App).Assembly);
+            Styles.ApplyApplicationTheme();
 
             MainPage = new NavigationPage(new MainMenu());
         }

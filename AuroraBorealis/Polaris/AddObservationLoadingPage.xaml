@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:aurora="http://eightbot.com/aurora"
+    x:Class="AuroraBorealis.Polaris.AddObservationLoadingPage">
+	<ContentPage.Content>
+        <Grid BackgroundColor="Black" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="75" />
+            </Grid.RowDefinitions>
+            <aurora:Nofriendo x:Name="_loadingBackground" Grid.Row="0" Grid.Column="0" Grid.RowSpan="3" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" StepCount="12" LoadingStartColor="SkyBlue" LoadingEndColor="DeepSkyBlue" />
+            <Label Grid.Row="0" Grid.Column="0" Text="Saving..." FontSize="20" FontAttributes="Italic" TextColor="White" Margin="64" VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center"/>
+            <aurora:MaterialCircular x:Name="_loading" Grid.Row="2" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" EndCapType="Rounded" ForegroundLoadingColor="DeepSkyBlue" BackgroundLoadingColor="GhostWhite" />
+        </Grid>
+	</ContentPage.Content>
+</ContentPage>

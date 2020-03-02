@@ -11,10 +11,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Essentials" Version="1.4.0" />
-    <PackageReference Include="AuroraControls.Core" Version="1.2020.226.1" />
-    <PackageReference Include="Xamarin.Forms" Version="4.4.0.991640" />
-    <PackageReference Include="AuroraControls.Experimental" Version="1.2020.226.1" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.0" />
+    <PackageReference Include="AuroraControls.Core" Version="1.2020.227.1" />
+    <PackageReference Include="Xamarin.Forms" Version="4.5.0.356" />
+    <PackageReference Include="AuroraControls.Experimental" Version="1.2020.227.1" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Icons\aurora_logo.svg" />
@@ -26,6 +26,18 @@
     <None Remove="Icons\loading_logo.svg" />
     <None Remove="Icons\float_label_logo.svg" />
     <None Remove=".DS_Store" />
+    <None Remove="Icons\atomic.svg" />
+    <None Remove="Icons\aurora.svg" />
+    <None Remove="Icons\clock.svg" />
+    <None Remove="Icons\dog.svg" />
+    <None Remove="Icons\dragon.svg" />
+    <None Remove="Icons\monkey.svg" />
+    <None Remove="Icons\ok.svg" />
+    <None Remove="Icons\rabbit.svg" />
+    <None Remove="Icons\rooster.svg" />
+    <None Remove="Icons\sun.svg" />
+    <None Remove="Icons\telescope.svg" />
+    <None Remove="Icons\tiger.svg" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Icons\ios_logo.svg" />
@@ -35,8 +47,29 @@
     <EmbeddedResource Include="Icons\loading_logo.svg" />
     <EmbeddedResource Include="Icons\float_label_logo.svg" />
     <EmbeddedResource Include="Icons\aurora_logo.svg" />
+    <EmbeddedResource Include="Icons\atomic.svg" />
+    <EmbeddedResource Include="Icons\aurora.svg" />
+    <EmbeddedResource Include="Icons\clock.svg" />
+    <EmbeddedResource Include="Icons\dog.svg" />
+    <EmbeddedResource Include="Icons\dragon.svg" />
+    <EmbeddedResource Include="Icons\monkey.svg" />
+    <EmbeddedResource Include="Icons\ok.svg" />
+    <EmbeddedResource Include="Icons\rabbit.svg" />
+    <EmbeddedResource Include="Icons\rooster.svg" />
+    <EmbeddedResource Include="Icons\sun.svg" />
+    <EmbeddedResource Include="Icons\telescope.svg" />
+    <EmbeddedResource Include="Icons\tiger.svg" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Icons\" />
+    <Folder Include="Polaris\">
+      <DependentUpon>Polaris</DependentUpon>
+    </Folder>
+    <Folder Include="Views\">
+      <DependentUpon>Views</DependentUpon>
+    </Folder>
+    <Folder Include="Profile\">
+      <DependentUpon>Profile</DependentUpon>
+    </Folder>
   </ItemGroup>
 </Project>

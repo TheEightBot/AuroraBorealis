@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:auroraControls="clr-namespace:Aurora.Controls;assembly=Aurora"
-    xmlns:auroraGauges="clr-namespace:Aurora.Gauges;assembly=Aurora"
+    xmlns:aurora="http://eightbot.com/aurora"
     x:Class="AuroraBorealis.Gauges" >
     <ContentPage.Content>
         <Grid Padding="8"
@@ -19,7 +18,7 @@
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
-            <auroraGauges:CircularGauge x:Name="_circular" Margin="16"
+            <aurora:CircularGauge x:Name="_circular" Margin="16"
                                         ProgressBackgroundColor="Black" 
                                         ProgressColor="Lime" StartingDegree="30" EndingDegree="75" 
                                         ProgressThickness="16" EndCapType="Rounded"
@@ -27,14 +26,14 @@
             
             <Label Text="Circular Gauge" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="Center"/>
             
-            <auroraGauges:CircularFillGauge x:Name="_fill" Margin="16"
+            <aurora:CircularFillGauge x:Name="_fill" Margin="16"
                                             ProgressBackgroundColor="Navy" 
                                             ProgressColor="Aqua" ProgressPercentage="75" 
                                             Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2"/>
             
             <Label Text="Circular Fill Gauge" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="Center"/>
             
-            <auroraGauges:LinearGauge x:Name="_linear" Margin="16"
+            <aurora:LinearGauge x:Name="_linear" Margin="16"
                                       Orientation="Horizontal"
                                       EndCapType="Rounded"
                                       ProgressBackgroundColor="Blue" ProgressColor="Silver" 

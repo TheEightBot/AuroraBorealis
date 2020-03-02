@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:aurora="http://eightbot.com/aurora"
+    x:Class="AuroraBorealis.Polaris.LogSignature"
+    Title="Log Signature">
+	<ContentPage.Content>
+        <StackLayout x:Name="log" Padding="8">
+            <aurora:StepIndicator x:Name="_step" NumberOfSteps="4" CurrentStep="4" DisplayStepNumber="true" FontColor="White" LineColor="Black" InactiveColor="Gray" HighlightColor="DarkCyan" HeightRequest="80"/>
+            <Label Text="Add your signature below" />
+            <!--<aurora:Signature x:Name="_coverage" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="LightSkyBlue"/>-->
+            <aurora:GradientPillButton x:Name="_next" Clicked="Next_Clicked" Text="Next" ButtonBackgroundStartColor="Blue" VerticalOptions="EndAndExpand" />
+        </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

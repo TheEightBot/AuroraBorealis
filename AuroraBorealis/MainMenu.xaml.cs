@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
 using Xamarin.Forms;
@@ -14,7 +14,11 @@ namespace AuroraBorealis
 
         async void Handle_Clicked(object sender, System.EventArgs e)
         {
-            if(sender == cupertino)
+            if (sender == polaris)
+            {
+                await this.Navigation.PushAsync(new Polaris.Login());
+            }
+            else if (sender == cupertino)
             {
                 await this.Navigation.PushAsync(new Cupertino());
             }

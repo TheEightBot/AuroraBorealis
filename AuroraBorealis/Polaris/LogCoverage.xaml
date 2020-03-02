@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:aurora="http://eightbot.com/aurora"
+    x:Class="AuroraBorealis.Polaris.LogCoverage"
+    Title="Log Coverage">
+	<ContentPage.Content>
+        <StackLayout x:Name="log" Padding="8">
+            <aurora:StepIndicator x:Name="_step" NumberOfSteps="4" CurrentStep="3" DisplayStepNumber="true" FontColor="White" LineColor="Black" InactiveColor="Gray" HighlightColor="DarkCyan" HeightRequest="80"/>
+            <aurora:ControlPanelSlider x:Name="_coverage" ProgressBackgroundColor="Black" ProgressColor="Aqua" Orientation="Vertical" 
+                HorizontalOptions="Center" VerticalOptions="CenterAndExpand" CornerRadius="16" WidthRequest="120" HeightRequest="300" />
+            <Label x:Name="_coverageLabel" Text="Test" HorizontalOptions="Center"/>
+            <aurora:GradientPillButton x:Name="_next" Text="Next" ButtonBackgroundStartColor="Blue" VerticalOptions="EndAndExpand" >
+                <aurora:GradientPillButton.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Next_Tapped" />
+                </aurora:GradientPillButton.GestureRecognizers>
+            </aurora:GradientPillButton>
+        </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

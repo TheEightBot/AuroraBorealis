@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:aurora="http://eightbot.com/aurora"
+    x:Class="AuroraBorealis.Polaris.MainMenu">
+	<ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <aurora:GradientColorView x:Name="_borealisBackground" Grid.Row="0" Grid.RowSpan="3" Grid.ColumnSpan="2"/>
+            <aurora:Tile x:Name="_explore" HeightRequest="260" Grid.Row="1" Grid.Column="0" Margin="8" ContentPadding="8" Text="Explore Auroras" FontSize="17" ButtonBackgroundColor="Transparent" OverlayColor="White" EmbeddedImageName="aurora.svg" CornerRadius="40" >
+                <aurora:Tile.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Explore_Tapped" />
+                </aurora:Tile.GestureRecognizers>
+            </aurora:Tile>
+            <aurora:NotificationBadge x:Name="tile1Badge" Grid.Row="1" Grid.Column="0" NotificationCount="2" VerticalOptions="Start" HorizontalOptions="End"></aurora:NotificationBadge>
+            <aurora:Tile x:Name="_log" HeightRequest="260" Grid.Row="1" Grid.Column="1" Margin="8" ContentPadding="8" Text="Log Observation" FontSize="17" ButtonBackgroundColor="Transparent" OverlayColor="White" EmbeddedImageName="telescope.svg" CornerRadius="40" >
+                <aurora:Tile.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Log_Tapped" />
+                </aurora:Tile.GestureRecognizers>
+            </aurora:Tile>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

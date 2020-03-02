@@ -3,9 +3,7 @@
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     x:Class="AuroraBorealis.Material"
-    xmlns:auroraControls="clr-namespace:Aurora.Controls;assembly=Aurora"
-    xmlns:auroraLoading="clr-namespace:Aurora.Loading;assembly=Aurora"
-    xmlns:auroraVisualEffects="clr-namespace:Aurora.VisualEffects;assembly=Aurora">
+    xmlns:aurora="http://eightbot.com/aurora">
     <ContentPage.Content>
         <Grid Padding="16, 48, 16, 16"
             RowSpacing="8">
@@ -23,7 +21,7 @@
                 <RowDefinition Height="40" />
             </Grid.RowDefinitions>
             
-            <auroraControls:FlatButton
+            <aurora:FlatButton
                 x:Name="flatButton"
                 BackgroundColor="#00FFFF"
                 CornerRadius="4"
@@ -33,31 +31,31 @@
                 Grid.Row="0" Grid.ColumnSpan="3" />
 
                 
-            <auroraControls:MaterialToggleSwitch 
+            <aurora:MaterialToggleSwitch 
                 x:Name="materialToggle"
                 TrackDisabledColor="#EC008C"
                 TrackEnabledColor="#00FFFF"
                 Grid.Row="1" Grid.ColumnSpan="3" />
                 
-            <auroraControls:CheckBox
+            <aurora:CheckBox
                 x:Name="cb1"
                 CheckType="RoundedCheck" Shape="RoundedSquare"
                 BorderColor="#301A48"
                 Grid.Row="2" Grid.Column="0" />
                  
-            <auroraControls:CheckBox
+            <aurora:CheckBox
                 x:Name="cb2"
                 CheckType="RoundedCheck" Shape="RoundedSquare"
                 BorderColor="#301A48"
                 Grid.Row="2" Grid.Column="1" />
                  
-            <auroraControls:CheckBox
+            <aurora:CheckBox
                 x:Name="cb3"
                 CheckType="RoundedCheck" Shape="RoundedSquare"
                 BorderColor="#301A48"
                 Grid.Row="2" Grid.Column="2" />
                 
-            <auroraLoading:MaterialCircular 
+            <aurora:MaterialCircular 
                 x:Name="loadingIndicator"
                 Grid.Row="3" Grid.ColumnSpan="3"
                 ForegroundLoadingColor="#EC008C" BackgroundLoadingColor="#00FFFF"

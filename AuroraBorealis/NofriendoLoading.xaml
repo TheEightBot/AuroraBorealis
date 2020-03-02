@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-    xmlns:auroraLoading="clr-namespace:Aurora.Loading;assembly=Aurora"
+    xmlns:aurora="http://eightbot.com/aurora"
     x:Class="AuroraBorealis.NofriendoLoading">
     <ContentPage.Content>
         <Grid BackgroundColor="Black" >
@@ -10,7 +10,7 @@
                 <RowDefinition Height="75" />
             </Grid.RowDefinitions>
             
-            <auroraLoading:Nofriendo x:Name="nofriendo" 
+            <aurora:Nofriendo x:Name="nofriendo" 
                                      Grid.Row="0" Grid.Column="0" Grid.RowSpan="3" 
                                      HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" 
                                      StepCount="12" 

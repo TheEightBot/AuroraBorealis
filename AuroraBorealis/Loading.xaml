@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:auroraControls="clr-namespace:Aurora.Controls;assembly=Aurora"
-    xmlns:auroraGauges="clr-namespace:Aurora.Gauges;assembly=Aurora"
+    xmlns:aurora="http://eightbot.com/aurora"
     x:Class="AuroraBorealis.Loading" >
     <ContentPage.Content>
         <Grid Padding="16" RowSpacing="16">
@@ -11,9 +10,9 @@
                 <RowDefinition Height="44" />
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
-            <auroraControls:CupertinoButton Text="Nofriendo" Grid.Row="0" ButtonBackgroundColor="#d32f2f" FontColor="White" Clicked="GoToNofriendo" />
-            <auroraControls:CupertinoButton Text="Rainbow Ring" Grid.Row="1" ButtonBackgroundColor="#7b1fa2" FontColor="White" Clicked="GoToRainbowRing" />
-            <auroraControls:CupertinoButton Text="Waves" Grid.Row="2" ButtonBackgroundColor="#0288d1" FontColor="White" Clicked="GoToWaves" />
+            <aurora:CupertinoButton Text="Nofriendo" Grid.Row="0" ButtonBackgroundColor="#d32f2f" FontColor="White" Clicked="GoToNofriendo" />
+            <aurora:CupertinoButton Text="Rainbow Ring" Grid.Row="1" ButtonBackgroundColor="#7b1fa2" FontColor="White" Clicked="GoToRainbowRing" />
+            <aurora:CupertinoButton Text="Waves" Grid.Row="2" ButtonBackgroundColor="#0288d1" FontColor="White" Clicked="GoToWaves" />
         </Grid>
     </ContentPage.Content>
 </ContentPage>

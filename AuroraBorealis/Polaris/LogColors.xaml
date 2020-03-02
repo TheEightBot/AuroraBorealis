@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="AuroraBorealis.Polaris.LogColors"
+    xmlns:aurora="http://eightbot.com/aurora"
+    Title="Log Colors">
+	<ContentPage.Content>
+        <Grid Padding="16">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <aurora:StepIndicator x:Name="_step" NumberOfSteps="4" CurrentStep="3" DisplayStepNumber="true" FontColor="White" LineColor="Black" InactiveColor="Gray" HighlightColor="DarkCyan"
+            Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" HeightRequest="80"/>
+            <aurora:CheckBox BorderColor="DarkCyan" ToggledBackgroundColor="Blue" CheckColor="Aqua" Grid.Row="1" Grid.Column="0" MarkWidth="2" />
+            <Label Text="Blue" Grid.Row="1" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Start"/>
+            <aurora:CheckBox BorderColor="Green" ToggledBackgroundColor="Green" CheckColor="Lime" Grid.Row="2" Grid.Column="0" CheckType="Cross" MarkWidth="2"/>
+            <Label Text="Green" Grid.Row="2" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Start"/>
+            <aurora:CheckBox BorderColor="Black" ToggledBackgroundColor="Yellow" CheckColor="#8B4513" Grid.Row="3" Grid.Column="0"/>
+            <Label Text="Yellow" Grid.Row="3" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Start"/>
+            <aurora:CheckBox BorderColor="Red" ToggledBackgroundColor="Red" CheckColor="#800000" Grid.Row="4" Grid.Column="0" Shape="Square"/>
+            <Label Text="Red" Grid.Row="4" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Start"/>
+            <aurora:CheckBox BorderColor="#FFA500" ToggledBackgroundColor="#FFA500" CheckColor="#FF4500" Grid.Row="5" Grid.Column="0" Shape="Square" CheckType="Cross"/>
+            <Label Text="Orange" Grid.Row="5" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Start"/>
+            <aurora:CheckBox BorderColor="Purple" ToggledBackgroundColor="Purple" CheckColor="#FF00FF" Grid.Row="6" Grid.Column="0"/>
+            <Label Text="Purple" Grid.Row="6" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Start"/>
+            <aurora:GradientPillButton x:Name="_next" Clicked="Next_Clicked" Text="Next" ButtonBackgroundStartColor="Blue" 
+                VerticalOptions="EndAndExpand" Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="2" />
+        </Grid>
+	</ContentPage.Content>
+</ContentPage>
