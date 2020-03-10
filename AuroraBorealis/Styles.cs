@@ -34,25 +34,6 @@ namespace AuroraBorealis
                     CanCascade = true
                 };
 
-                style.Setters.Add(FloatLabelContainerView.TitleFontSizeProperty, 15);
-                style.Setters.Add(FloatLabelContainerView.EditingViewHeightProperty, 32);
-                style.Setters.Add(FloatLabelContainerView.ErrorRowHeightProperty, 0);
-
-                style.Setters.Add(FloatLabelContainerView.CornerRadiusProperty, 20d);
-                style.Setters.Add(FloatLabelContainerView.ContentBackgroundColorProperty, Colors.NearWhite);
-
-                style.Setters.Add(FloatLabelContainerView.BorderStyleProperty, FloatLabelContainerView.FloatingLabelContainerBorderStyle.RoundedRectangle);
-                style.Setters.Add(FloatLabelContainerView.BorderSizeProperty, 6d);
-
-                style.Setters.Add(FloatLabelContainerView.ActiveColorProperty, Colors.Accent);
-                style.Setters.Add(FloatLabelContainerView.InactiveColorProperty, Colors.Primary);
-
-                style.Setters.Add(FloatLabelContainerView.DisabledColorProperty, Colors.DarkGray);
-
-                style.Setters.Add(FloatLabelContainerView.PlaceholderColorProperty, Colors.Accent);
-
-                style.Setters.Add(FloatLabelContainerView.EditingViewMarginProperty, new Thickness(8, 4));
-
                 var nonUserEditable = new Trigger(typeof(FloatLabelContainerView))
                 {
                     Property = FloatLabelContainerView.UserEditableProperty,
