@@ -11,10 +11,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Essentials" Version="1.5.0" />
-    <PackageReference Include="AuroraControls.Core" Version="1.2020.227.1" />
-    <PackageReference Include="Xamarin.Forms" Version="4.5.0.356" />
-    <PackageReference Include="AuroraControls.Experimental" Version="1.2020.227.1" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+    <PackageReference Include="AuroraControls.Core" Version="1.2020.520.2" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2291" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Icons\aurora_logo.svg" />
@@ -63,13 +62,10 @@
   <ItemGroup>
     <Folder Include="Icons\" />
     <Folder Include="Polaris\">
-      <DependentUpon>Polaris</DependentUpon>
     </Folder>
     <Folder Include="Views\">
-      <DependentUpon>Views</DependentUpon>
     </Folder>
     <Folder Include="Profile\">
-      <DependentUpon>Profile</DependentUpon>
     </Folder>
   </ItemGroup>
 </Project>

@@ -18,12 +18,14 @@ namespace AuroraBorealis.Polaris
             _borealisBackground.GradientStartColor = Color.Green;
             _borealisBackground.GradientStopColor = Color.MidnightBlue;
 
-            Device.StartTimer(TimeSpan.FromSeconds(5), () =>
-            {
-                ChangeColor();
+            Device.StartTimer(
+                TimeSpan.FromSeconds(5),
+                () =>
+                {
+                    ChangeColor();
 
-                return true;
-            });
+                    return true;
+                });
         }
 
         async Task ChangeColor()
@@ -46,7 +48,7 @@ namespace AuroraBorealis.Polaris
             );
         }
 
-        async Task ShowLoading()
+        void ShowLoading()
         {
             //_waves.StartAnimating(16, 500);
             //_welcomeBanner.ToggleBannerVisibility();
@@ -59,7 +61,7 @@ namespace AuroraBorealis.Polaris
 
         async void Explore_Tapped(object sender, System.EventArgs e)
         {
-            await ShowLoading();
+            ShowLoading();
 
             NavigationPage.SetHasNavigationBar(this, false);
             await this.Navigation.PushAsync(new ExploreAuroras());

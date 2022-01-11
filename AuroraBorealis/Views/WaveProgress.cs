@@ -1,7 +1,6 @@
 ﻿using Aurora.Gauges;
 using Aurora.Loading;
 using AuroraBorealis.Polaris;
-using AuroraBorealis.Polaris;
 using System;
 using System.Collections.Generic;
 using System.Linq;
